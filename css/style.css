@@ -217,7 +217,7 @@ header {
     .socials
 {
   position: absolute;
-  bottom: 30px;
+  bottom: 20px;
   right: 30px;
 }
     .socials
@@ -245,6 +245,13 @@ header {
         .content
     {
         margin-left: 0px;
+    }
+
+    .header
+    {
+
+      background-size:cover;
+  background-position: center center;
     }
         
 
