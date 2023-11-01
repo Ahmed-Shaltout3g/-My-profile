@@ -47,8 +47,8 @@ ul
 .options
 {
     position: fixed;
-    top: 200px;
-    left: 0px;
+    top: 150px;
+    left: -1px;
     z-index: 99999;
 }
 
@@ -106,16 +106,13 @@ nav img {
     color: #fec86a;
 }
 
-.list-toggle li
+.list-toggle a
 {
-    margin: 10px 0px;
+    margin-bottom: 20px;
     color: white;
     font-weight: 700;
-    
-
-
 }
-.list-toggle li:hover
+.list-toggle a:hover
 {
     color: #fec86a;
 
@@ -125,6 +122,11 @@ nav img {
 {
   display: none;
   background-color: black;
+  padding: 10px 0px;
+}
+.list-toggle ul li{
+  margin: 10px 0px;
+  width: 100px;
 }
 
 .toggle
@@ -140,6 +142,11 @@ nav img {
   .toggle
 {
   display:flex ;
+}
+
+nav
+{
+  padding: 0;
 }
 }
 
