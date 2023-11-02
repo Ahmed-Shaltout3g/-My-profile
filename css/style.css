@@ -158,7 +158,7 @@ nav
 header {
  
   
-  background-image: url('../asset/43.png');
+  background-image: url(../asset/43.png);
   background-size: contain;
   background-position: right;
   background-attachment: fixed;
